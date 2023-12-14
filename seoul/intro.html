@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="refresh" content="7; url=main.html" />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    ul {
+      list-style: none;
+    }
+    a {
+      text-decoration: none;
+    }
+    .intro {
+      width: 100%;
+      height: 100vh;
+      margin: 0 auto;
+      background: #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: fixed;
+    }
+    .intro svg {
+      width: 600px;
+      height: 600px;
+      border: 1px solid #000;
+    }
+    .intro svg path {
+      fill: none;
+      stroke: white;
+      stroke-width: 6px;
+      stroke-dasharray: 900;
+      stroke-dashoffset: 900;
+      animation: ani 6s forwards;
+    }
+    @keyframes ani {
+      0% {
+        stroke-dashoffset: 900;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    .intro .txt {
+      color: white;
+      font-size: 35px;
+      font-weight: bold;
+      position: absolute;
+      left: 55%;
+      top: 20%;
+      animation: ani1 0.5s 4.7s forwards;
+      opacity: 0;
+    }
+    @keyframes ani1 {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+    .intro .txt p:nth-child(2) {
+      color: #767676;
+    }
+  </style>
+  <body>
+    <div class="intro">
+      <svg
+        version="1.1"
+        id="Layer_1"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        x="0px"
+        y="0px"
+        viewBox="0 0 314.5 429.3"
+        style="enable-background: new 0 0 314.5 429.3"
+        xml:space="preserve"
+      >
+        <path
+          class="st0"
+          d="M87.3,320.8l103.6,74.1c0,0,19.3,12.8,39.1,6.7s37.8-15.8,47.9-34s6.1-40,6.1-40s-0.9-23.3-17.3-35.6
+           C250.3,279.6,34.3,125,34.3,125S19.7,115.3,19.7,96s0-60.9,0-60.9s-0.6-14.4,14.7-14.4s154.5,0,154.5,0"
+        />
+      </svg>
+      <div class="txt">
+        <p>서울시립미술관</p>
+        <p>SEOUL MUSEUM <br />OF ART</p>
+      </div>
+    </div>
+    <script>
+      $(function () {
+        $(".intro").animate({ opacity: "1" }, 7000, function () {
+          $(".intro").css({ display: "none" });
+        });
+        $(".main")
+          .css("opacity", "0")
+          .delay(7000)
+          .animate({ opacity: 1 }, 1000, function () {
+            $(".main").css("display", "block");
+          });
+      });
+    </script>
+  </body>
+</html>
