@@ -224,7 +224,7 @@ body {
 }
 .slide2 .right {
   width: 55%;
-  height: 10 0%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
