@@ -19,11 +19,12 @@ $(function () {
     slidesPerView: 1,
     spaceBetween: 0,
     mousewheel: true,
-    
+
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
     },
+
     on: {
       slideChange: function () {
         // Swiper 슬라이드가 변경될 때 메뉴 항목의 활성 상태를 업데이트

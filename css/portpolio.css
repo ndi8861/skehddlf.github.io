@@ -221,7 +221,7 @@ body {
   font-weight: bold;
   font-family: "GowunBatang-Bold";
 }
-.slide2 .right h2 {
+.slide2 .right p {
   font-size: 30px;
   color: #000;
 }
@@ -238,18 +238,18 @@ body {
   margin-right: 20px;
 }
 
-.slide2 .right > ul > li:nth-of-type(2) > ul {
+.slide2 .right > ul:nth-of-type(2) > li > ul {
   display: flex;
   flex-wrap: wrap;
 }
-.slide2 .right > ul > li:nth-of-type(2) > ul li {
+.slide2 .right > ul:nth-of-type(2) > li > ul li {
   margin-right: 20px;
   height: 60px;
 }
-.slide2 .right > ul > li:nth-of-type(2) > ul li:nth-of-type(3) img {
+.slide2 .right > ul:nth-of-type(2) > li > ul li:nth-of-type(3) img {
   width: 34px;
 }
-.slide2 .right > ul > li:nth-of-type(2) > ul li:nth-of-type(7) img {
+.slide2 .right > ul:nth-of-type(2) > li > ul li:nth-of-type(7) img {
   width: 110px;
 }
 .slide2 .right > ul > li > ul > li {
@@ -588,7 +588,7 @@ body {
   .slide2 .left img {
     width: 350px;
   }
-  .slide2 .right h2 {
+  .slide2 .right p {
     font-size: 28px;
   }
   .slide2 .right div {
@@ -607,19 +607,19 @@ body {
   .slide2 .right > ul > li ul:nth-of-type(1) {
     margin-right: 20px;
   }
-  .slide2 .right > ul > li:nth-of-type(2) > ul {
+  .slide2 .right > ul:nth-of-type(2) > li > ul {
     display: flex;
   }
-  .slide2 .right > ul > li:nth-of-type(2) > ul li {
+  .slide2 .right > ul:nth-of-type(2) > li > ul li {
     margin-right: 20px;
   }
-  .slide2 .right > ul > li:nth-of-type(2) > ul li img {
+  .slide2 .right > ul:nth-of-type(2) > li > ul li img {
     width: 45px;
   }
-  .slide2 .right > ul > li:nth-of-type(2) > ul li:nth-of-type(3) img {
+  .slide2 .right > ul:nth-of-type(2) > li > ul li:nth-of-type(3) img {
     width: 35px;
   }
-  .slide2 .right > ul > li:nth-of-type(2) > ul li:nth-of-type(7) img {
+  .slide2 .right > ul:nth-of-type(2) > li > ul li:nth-of-type(7) img {
     width: 100px;
   }
   .slide3 img {
@@ -786,7 +786,7 @@ body {
   .slide2 .right {
     width: 90%;
   }
-  .slide2 .right h2 {
+  .slide2 .right p {
     font-size: 26px;
   }
   .slide2 .right div {
@@ -808,21 +808,21 @@ body {
   .slide2 .right > ul > li ul:nth-of-type(1) {
     margin-bottom: 20px;
   }
-  .slide2 .right > ul > li:nth-of-type(2) > ul {
+  .slide2 .right > ul:nth-of-type(2) > li > ul {
     display: flex;
     flex-wrap: wrap;
   }
-  .slide2 .right > ul > li:nth-of-type(2) > ul li {
+  .slide2 .right > ul:nth-of-type(2) > li > ul li {
     margin: 0px 20px 20px 0;
     height: 40px;
   }
-  .slide2 .right > ul > li:nth-of-type(2) > ul li img {
+  .slide2 .right > ul:nth-of-type(2) > li > ul li img {
     width: 40px;
   }
-  .slide2 .right > ul > li:nth-of-type(2) > ul li:nth-of-type(3) img {
+  .slide2 .right > ul:nth-of-type(2) > li > ul li:nth-of-type(3) img {
     width: 25px;
   }
-  .slide2 .right > ul > li:nth-of-type(2) > ul li:nth-of-type(7) img {
+  .slide2 .right > ul:nth-of-type(2) > li > ul li:nth-of-type(7) img {
     width: 80px;
   }
   .slide3 img {
@@ -939,7 +939,7 @@ body {
   .slide2 .left img {
     width: 0px;
   }
-  .slide2 .right h2 {
+  .slide2 .right p {
     font-size: 24px;
   }
   .slide2 .right div {
@@ -956,21 +956,18 @@ body {
   .slide2 .right > ul > li ul:nth-of-type(1) {
     margin-bottom: 20px;
   }
-  .slide2 .right > ul > li:nth-of-type(2) > ul {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .slide2 .right > ul > li:nth-of-type(2) > ul li {
+
+  .slide2 .right > ul:nth-of-type(2) > li > ul li {
     margin: 0px 20px 20px 0;
     height: 40px;
   }
-  .slide2 .right > ul > li:nth-of-type(2) > ul li img {
+  .slide2 .right > ul:nth-of-type(2) > li > ul li img {
     width: 40px;
   }
-  .slide2 .right > ul > li:nth-of-type(2) > ul li:nth-of-type(3) img {
+  .slide2 .right > ul:nth-of-type(2) > li > ul li:nth-of-type(3) img {
     width: 25px;
   }
-  .slide2 .right > ul > li:nth-of-type(2) > ul li:nth-of-type(7) img {
+  .slide2 .right > ul:nth-of-type(2) > li > ul li:nth-of-type(7) img {
     width: 80px;
   }
 }
@@ -1031,6 +1028,7 @@ body {
     justify-content: center;
     color: #000;
   }
+
   .slide2 .left {
     width: 0px;
     display: flex;
@@ -1047,12 +1045,11 @@ body {
   .slide2 .right img {
     width: 30px;
   }
-  .slide2 .right h2 {
+  .slide2 .right p {
     font-size: 24px;
   }
   .slide2 .right div {
-    width: 90%;
-    font-size: 24px;
+    display: none;
   }
   .slide2 .right > ul {
     width: 90%;
@@ -1064,20 +1061,17 @@ body {
   .slide2 .right > ul > li ul:nth-of-type(1) {
     margin-bottom: 20px;
   }
-  .slide2 .right > ul > li:nth-of-type(2) > ul {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .slide2 .right > ul > li:nth-of-type(2) > ul li {
+  
+  .slide2 .right > ul:nth-of-type(2) > li > ul li {
     margin-bottom: 20px;
   }
-  .slide2 .right > ul > li:nth-of-type(2) > ul li img {
+  .slide2 .right > ul:nth-of-type(2) > li > ul li img {
     width: 40px;
   }
-  .slide2 .right > ul > li:nth-of-type(2) > ul li:nth-of-type(3) img {
+  .slide2 .right > ul:nth-of-type(2) > li > ul li:nth-of-type(3) img {
     width: 25px;
   }
-  .slide2 .right > ul > li:nth-of-type(2) > ul li:nth-of-type(7) img {
+  .slide2 .right > ul:nth-of-type(2) > li > ul li:nth-of-type(7) img {
     width: 80px;
   }
   .slide3 {
@@ -1334,17 +1328,16 @@ body {
     height: 95%;
   }
 
-  .slide2 .right h2 {
+  .slide2 .right p {
     font-size: 20px;
     margin-top: 20px;
   }
   .slide2 .right div {
-    width: 90%;
-    font-size: 18px;
     display: none;
   }
   .slide2 .right > ul {
     width: 95%;
+    height: 210px;
   }
   .slide2 .right > ul > li {
     margin: 40px 0 10px 0;
@@ -1353,20 +1346,17 @@ body {
   .slide2 .right > ul > li ul:nth-of-type(1) {
     margin-bottom: 20px;
   }
-  .slide2 .right > ul > li:nth-of-type(2) > ul {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .slide2 .right > ul > li:nth-of-type(2) > ul li {
+  
+  .slide2 .right > ul:nth-of-type(2) > li > ul li {
     margin-bottom: 20px;
   }
-  .slide2 .right > ul > li:nth-of-type(2) > ul li img {
+  .slide2 .right > ul:nth-of-type(2) > li > ul li img {
     width: 28px;
   }
-  .slide2 .right > ul > li:nth-of-type(2) > ul li:nth-of-type(3) img {
+  .slide2 .right > ul:nth-of-type(2) > li > ul li:nth-of-type(3) img {
     width: 18px;
   }
-  .slide2 .right > ul > li:nth-of-type(2) > ul li:nth-of-type(7) img {
+  .slide2 .right > ul:nth-of-type(2) > li > ul li:nth-of-type(7) img {
     width: 60px;
   }
   .slide3 img {
