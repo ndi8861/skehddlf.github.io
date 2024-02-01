@@ -19,7 +19,7 @@ $(function () {
     slidesPerView: 1,
     spaceBetween: 0,
     mousewheel: true,
-
+    allowTouchMove: true,
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
@@ -40,6 +40,7 @@ $(function () {
       },
     },
   });
+
   $(".menu>ul li a").on("click", function (e) {
     e.preventDefault();
     let i = $(this).parent().index();
